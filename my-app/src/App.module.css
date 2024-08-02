@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;  
+    margin: 0;
+}
+nav{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 1.3rem;
+}
+nav a{
+    text-decoration: none;
+    border: #67595A solid 1px;
+    border-radius: 10px;
+    display: block;
+    padding: 0.5rem;
+    color: #67595A;
+}
+header{
+    display: flex;
+    font-family: 'Rethink Sans', sans-serif;
+    margin-bottom: 0.5rem;
+}
